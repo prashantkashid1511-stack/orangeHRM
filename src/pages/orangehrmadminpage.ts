@@ -26,6 +26,7 @@ export class OrangehrmAdmin{
     this.search = page.getByRole("button", {name: ' Search '});
  }
 
+ 
 
  async adminOptionClick(){
 
