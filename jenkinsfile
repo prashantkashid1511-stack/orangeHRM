@@ -94,7 +94,7 @@ pipeline {
                 Check the Jenkins build:
                 ${env.BUILD_URL}
                 """,
-                to: 'your-email@example.com'
+                to: 'prashantkashid1511@gmail.com'
             )
         }
 
@@ -115,7 +115,7 @@ pipeline {
                 Please check the Jenkins console output:
                 ${env.BUILD_URL}
                 """,
-                to: 'your-email@example.com'
+                to: 'prashantkashid1511@gmail.com'
             )
         }
     }
