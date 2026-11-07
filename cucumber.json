@@ -16,6 +16,6 @@
       "allure-cucumberjs/reporter",
       "html:reports/cucumber-report.html"
     ],
-    "parallel": 3
+    "parallel": 1
   }
 }

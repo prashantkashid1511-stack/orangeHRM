@@ -5,7 +5,7 @@ import { OrangeHrmLogin } from "../pages/orangehrmloginpage";
 
 let Orangehrmlogin:OrangeHrmLogin;
 
-Given("When I am on the Orange hrm login page" , async function (this:CustomWorld){
+Given("I am on the Orange hrm login page" , async function (this:CustomWorld){
   
 Orangehrmlogin=new OrangeHrmLogin(this.page);
 await Orangehrmlogin.gotoorangehrm();
