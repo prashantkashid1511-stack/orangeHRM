@@ -22,7 +22,7 @@ export class OrangeHrmLogin {
 
   async gotoorangehrm(){
     
-   await this.page.goto( process.env.BASE_URL!,{waitUntil:"domcontentloaded"});
+   await this.page.goto( process.env.BASE_URL!,{waitUntil:"domcontentloaded" , timeout: 60000});
 
 }
 
