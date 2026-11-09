@@ -36,17 +36,17 @@ Before({ timeout: 50000 }, async function (this: CustomWorld) {
 
   if (browserName === "chromium") {
     this.browser = await chromium.launch({
-      headless: false
+      headless: true
 
     });
   } else if (browserName === "firefox") {
     this.browser = await firefox.launch({
-      headless: false,
+      headless: true,
       slowMo: 1000
     });
   } else if (browserName === "webkit") {
     this.browser = await webkit.launch({
-      headless: false,
+      headless: true,
       slowMo: 1000
     });
   } else {
